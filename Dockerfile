@@ -1,4 +1,4 @@
-FROM rust:1.57-buster as builder
+FROM rust:1.57 as builder
 WORKDIR /ntp-api
 
 COPY . .
